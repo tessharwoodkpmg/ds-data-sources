@@ -12,7 +12,7 @@ This is intended to be open source! Feel free to [contribute to it](https://akra
 
 1. Only include datasets, not statistics, reports, visualisations etc.
 2. Only include datasets that might be of interest to people working in transport.
-3. Include a source 
+3. Include a source. 
 4. Include details of the key variables within each dataset. This helps with searching.
 5. Include dates / backseries availability wherever possible.
 6. Include the format of the data (e.g. xlsx, csv, API etc.).
@@ -35,17 +35,17 @@ This is intended to be open source! Feel free to [contribute to it](https://akra
 
 ### Road
 
-* [GB Road Traffic Counts (2000 - date)](https://www.dft.gov.uk/traffic-counts/download.php) Traffic count datasets produced by the DfT for the level of traffic on various roads in Great Britain in .csv format.
-* [GB Road Safety Data (1979 - date)](https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data) Road Safety datasets in .csv format about the circumstances of personal injury road accidents in GB the types (including Make and Model) of vehicles involved and the consequential casualties. The statistics relate only to personal injury accidents on public roads that are reported to the police, and subsequently recorded, using the STATS19 accident reporting form.
-* [MOT Test Results (2005 - date)](https://data.gov.uk/dataset/e3939ef8-30c7-4ca8-9c7c-ad9475cc9b2f/anonymised-mot-tests-and-results) MOT test outcome dataset produced by the DfT for the UK (I think?). Contains all MOT tests and outcomes, including make and model of vehicle, odometer reading and reasons for failure, since the MOT system was computerised in 2005. Data is in .txt pipe delimiter format.
-* [GB Driving Licences (2012 - date)](https://data.gov.uk/dataset/d0be1ed2-9907-4ec4-b552-c048f6aec16a/gb-driving-licence-data) Datasets containing current driving licences issued by the Driver and Vehicle Licensing Agency (DVLA). The DVLA is responsible for issuing driving licences in Great Britain (GB). Driving licences issued in Northern Ireland are the responsibility of the Northern Ireland Driver & Vehicle Agency and are outside the scope of this release.
+* [DfT GB Road Traffic Counts (2000 - date)](https://www.dft.gov.uk/traffic-counts/download.php) Traffic count datasets produced by the DfT for the level of traffic on various roads in Great Britain in .csv format.
+* [DfT GB Road Safety Data (1979 - date)](https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data) Road Safety datasets in .csv format about the circumstances of personal injury road accidents in GB the types (including Make and Model) of vehicles involved and the consequential casualties. The statistics relate only to personal injury accidents on public roads that are reported to the police, and subsequently recorded, using the STATS19 accident reporting form.
+* [DfT MOT Test Results (2005 - date)](https://data.gov.uk/dataset/e3939ef8-30c7-4ca8-9c7c-ad9475cc9b2f/anonymised-mot-tests-and-results) MOT test outcome dataset produced by the DfT for the UK (I think?). Contains all MOT tests and outcomes, including make and model of vehicle, odometer reading and reasons for failure, since the MOT system was computerised in 2005. Data is in .txt pipe delimiter format.
+* [DfT GB Driving Licences (2012 - date)](https://data.gov.uk/dataset/d0be1ed2-9907-4ec4-b552-c048f6aec16a/gb-driving-licence-data) Datasets containing current driving licences issued by the Driver and Vehicle Licensing Agency (DVLA) and published but the DfT. The DVLA is responsible for issuing driving licences in Great Britain (GB). Driving licences issued in Northern Ireland are the responsibility of the Northern Ireland Driver & Vehicle Agency and are outside the scope of this release.
+* [Highways England TRIS (2006 - Date)](http://tris.highwaysengland.co.uk/) Traffic flow and journey time data for the English trunk road network in .csv format.
+* [Highways England WebTRIS (2006 - Date)](http://webtris.highwaysengland.co.uk/api/swagger/ui/index)  API for the TRIS traffic flow and journey time data for the English trunk road network. The API is well documented, uder friendly and doesn't require signup, authentication or payment.
 
 ### Rail
 
 * [ORR Station Usage Stats (1997 - date)](http://orr.gov.uk/statistics/published-stats/station-usage-estimates) Train station usage dataset in xlsx format compiled by the Office of Rail and Road (ORR) for 1997 - date. Contains data on entries, exits broken down by type as well as geographic data about the station itself as well as the tlc and nlc station identifiers to help with merging to other data. 
 * [Doogal Station Usage Stats (1997 - date)](https://www.doogal.co.uk/UkStations.php) Train station usage dataset based upon the ORR Station usage dataset but more succinct and extra area level data (e.g. Rural / Urban classification) and a full timeseries.
-
-
 
 
 
