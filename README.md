@@ -59,6 +59,11 @@ This is intended to be open source! Feel free to [contribute to it](https://akra
 
 * [AppyParking (API)](https://appyparking.com/develop/) APIs for on-street and off-street parking locations and petrol station prices and locations. The parking APIs appear to be free but the petrol station API appears to require a subscription.
 
+### Bus
+
+* [Traveline National Dataset (TNDS)](https://www.travelinedata.org.uk/traveline-open-data/traveline-national-dataset/) Public transport timetables for bus, light rail, tram and ferry services in Great Britain. Data is provided in [TransXChange](https://www.gov.uk/government/collections/transxchange) XML format. Data can be converted to [GTFS](https://en.wikipedia.org/wiki/General_Transit_Feed_Specification) with various tools, including [TransXChange2GTFS](https://github.com/danbillingsley/TransXChange2GTFS).
+
+
 ### Maritime
 
 
