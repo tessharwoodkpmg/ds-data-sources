@@ -78,7 +78,7 @@ This is intended to be open source! Feel free to [contribute to it](https://akra
 
 * [Rail Delivery Group Fares & Timetables](http://data.atoc.org/data-download) Datasets for UK train timetables, fares and London Terminal stations 'refreshed on an infrequent basis' and in a variety of formats including XML and CIF formats. The feeds are free but require registration.
 
-* [Area51 Historic TRUST data](https://cdn.area51.onl/archive/rail/trust/index.html) Historical archive of [Network Rail Train Movements data](https://wiki.openraildata.com/index.php/Train_Movements) obtained via the Network Rail API dating back to March 2017 and updated daily with a separate file for each day. The files are zipped and contain multiple JSON arrays so unpacking is required. The dataset contains information on departures, arrivals, delays etc. and the data is quite complex to decipher.
+* [Area51 Historic TRUST data](https://cdn.area51.onl/archive/rail/trust/index.html) Historical archive of [Network Rail Train Movements data](https://wiki.openraildata.com/index.php/Train_Movements) obtained via the Network Rail API dating back to March 2017 and updated daily with a separate file for each day. The files are zipped and contain multiple JSON arrays so unpacking is required. The dataset contains information on departures, arrivals, delays etc. and is quite complex to decipher.
 
 
 ### Bus
