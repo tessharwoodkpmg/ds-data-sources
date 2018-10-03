@@ -33,6 +33,14 @@ This is intended to be open source! Feel free to [contribute to it](https://akra
 
 ## Transport Data Sources
 
+### General / Multi-modal
+
+* [DfT National Public Transport Access Nodes (NaPTAN)](https://data.gov.uk/dataset/naptan) NaPTAN is Great Britain's national dataset of public transport access points (bus stops, rail stations, airports, ferry piers, tram/metro/underground stops).
+
+* [Transport Accessibility Data (2013)](https://data.gov.uk/dataset/141f53ae-b285-4e10-a214-6dfe4004ad14/transport-accessibility-data) These datasets were gathered by Transport Direct to support accessible (step-free or with assistance) journey planning. They describe accessibility of public transport stations, stops and services. The data is not yet fully comprehensive, but does provide coverage across much of Great Britain. Note: Last updated 2013.
+
+* [DfT National Public Transport Gazeteer (2011 - 2016)](https://data.gov.uk/dataset/nptg) NPTG is a database of localities (cities, towns, villages and other settlements) in Great Britain. It provides a common frame of reference for the National Public Access Nodes (NaPTAN) schema and other UK Public Transport Information schemas.
+
 ### Road
 
 * [DfT GB Road Traffic Counts (2000 - date)](https://www.dft.gov.uk/traffic-counts/download.php) Traffic count datasets produced by the DfT for the level of traffic on various roads in Great Britain in .csv format.
@@ -49,6 +57,15 @@ This is intended to be open source! Feel free to [contribute to it](https://akra
 
 * [Highways England WebTRIS (2006 - Date)](http://webtris.highwaysengland.co.uk/api/swagger/ui/index)  API for the TRIS traffic flow and journey time data for the English trunk road network. The API is well documented, uder friendly and doesn't require signup, authentication or payment.
 
+* [Traveline](https://www.travelinedata.org.uk/) Traveline provides journey planning and departure information covering Great Britain alongside timetable and real-time bus information. They are a not-for-profit governed by an executive board made up of representatives from transport operators, local authorities, and Passenger Focus. They hold the Traveline National Dataset (TNDS) of scheduled bus, tram, and light rail services, the NextBuses API providing live departures where available and scheduled departures where not, by stop and the National Operator Codes (NOC) database which gives national operator codes to reference transport operators.
+
+* [Local Bus Service Registration (2014 - ?)](https://data.gov.uk/dataset/local-bus-service-registration) Register of all registered local bus services in Great Britain as recorded on the Operator Licensing Business System (OLBS) 
+
+* [DfT National Coach Services (NCSD) (2013 - Date)](https://data.gov.uk/dataset/national-coach-services) The National Coach Services Database (NCSD) consists of schedule (timetable) data for several mainland UK coach services not contained in the Traveline National Dataset (TNDS).
+
+
+* [AppyParking (API)](https://appyparking.com/develop/) APIs for on-street and off-street parking locations and petrol station prices and locations. The parking APIs appear to be free but the petrol station API appears to require a subscription.
+
 ### Rail
 
 * [ORR Station Usage Stats (1997 - date)](http://orr.gov.uk/statistics/published-stats/station-usage-estimates) Train station usage dataset in xlsx format compiled by the Office of Rail and Road (ORR) for 1997 - date. Contains data on entries, exits broken down by type as well as geographic data about the station itself as well as the tlc and nlc station identifiers to help with merging to other data. 
@@ -57,7 +74,12 @@ This is intended to be open source! Feel free to [contribute to it](https://akra
 
 * [National Rail Enquiries Data Feeds (API)](http://www.nationalrail.co.uk/46391.aspx) Three separate datafeeds for National Rail data including Darwin (Realtime train running data), Knowledgebase (including data on station facilities, service disruption, and engineering work) and Online Journey Planner (engine used to plan routes, calculate fares and establish ticket availability). Note that Darwin is a SOAP API, but [Huxley](https://github.com/jpsingleton/Huxley), allows easier access to this data. NRE don't provide much documentation however there is information available at the [https://wiki.openraildata.com/index.php/Main_Page](Open Rail Data Wiki).
 
-* [AppyParking (API)](https://appyparking.com/develop/) APIs for on-street and off-street parking locations and petrol station prices and locations. The parking APIs appear to be free but the petrol station API appears to require a subscription.
+* [Network Rail Open Data Feeds](https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/) A variety of APIs including UK train planning data, location reference, train movements (in real time), train positioning, real time performance, schedule, speed restrictions, Very Short Term Plan (VSTP) and infrastructure.  The API requires registration and to manage expectations there is a waiting list and it's likely to take you a few months for your registration to be approved.
+
+* [Rail Delivery Group Fares & Timetables](http://data.atoc.org/data-download) Datasets for UK train timetables, fares and London Terminal stations 'refreshed on an infrequent basis' and in a variety of formats including XML and CIF formats. The feeds are free but require registration.
+
+* [Area51 Historic TRUST data](https://cdn.area51.onl/archive/rail/trust/index.html) Historical archive of [Network Rail Train Movements data](https://wiki.openraildata.com/index.php/Train_Movements) obtained via the Network Rail API dating back to March 2017 and updated daily with a separate file for each day. The files are zipped and contain multiple JSON arrays so unpacking is required. The dataset contains information on departures, arrivals, delays etc. and the data is quite complex to decipher.
+
 
 ### Maritime
 
