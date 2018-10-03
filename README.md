@@ -72,13 +72,18 @@ This is intended to be open source! Feel free to [contribute to it](https://akra
 
 * [Doogal Station Usage Stats (1997 - date)](https://www.doogal.co.uk/UkStations.php) Train station usage dataset based upon the ORR Station usage dataset but more succinct and extra area level data (e.g. Rural / Urban classification) and a full timeseries.
 
-* [National Rail Enquiries Data Feeds (API)](http://www.nationalrail.co.uk/46391.aspx) Three separate datafeeds for National Rail data including Darwin (Realtime train running data), Knowledgebase (including data on station facilities, service disruption, and engineering work) and Online Journey Planner (engine used to plan routes, calculate fares and establish ticket availability). Note that Darwin is a SOAP API, but [Huxley](https://github.com/jpsingleton/Huxley), allows easier access to this data. NRE don't provide much documentation however there is information available at the [https://wiki.openraildata.com/index.php/Main_Page](Open Rail Data Wiki).
+* [National Rail Enquiries Data Feeds (API)](http://www.nationalrail.co.uk/46391.aspx) Three separate datafeeds for National Rail data including Darwin (Realtime train running data), Knowledgebase (including data on station facilities, service disruption, and engineering work) and Online Journey Planner (engine used to plan routes, calculate fares and establish ticket availability). Note that Darwin is a SOAP API, but [Huxley](https://github.com/jpsingleton/Huxley), allows easier access to this data. NRE don't provide much documentation however there is information available at the [Open Rail Data Wiki ](https://wiki.openraildata.com/index.php/Main_Page).
 
 * [Network Rail Open Data Feeds](https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/) A variety of APIs including UK train planning data, location reference, train movements (in real time), train positioning, real time performance, schedule, speed restrictions, Very Short Term Plan (VSTP) and infrastructure.  The API requires registration and to manage expectations there is a waiting list and it's likely to take you a few months for your registration to be approved.
 
 * [Rail Delivery Group Fares & Timetables](http://data.atoc.org/data-download) Datasets for UK train timetables, fares and London Terminal stations 'refreshed on an infrequent basis' and in a variety of formats including XML and CIF formats. The feeds are free but require registration.
 
 * [Area51 Historic TRUST data](https://cdn.area51.onl/archive/rail/trust/index.html) Historical archive of [Network Rail Train Movements data](https://wiki.openraildata.com/index.php/Train_Movements) obtained via the Network Rail API dating back to March 2017 and updated daily with a separate file for each day. The files are zipped and contain multiple JSON arrays so unpacking is required. The dataset contains information on departures, arrivals, delays etc. and the data is quite complex to decipher.
+
+
+### Bus
+
+* [Traveline National Dataset (TNDS)](https://www.travelinedata.org.uk/traveline-open-data/traveline-national-dataset/) Public transport timetables for bus, light rail, tram and ferry services in Great Britain. Data is provided in [TransXChange](https://www.gov.uk/government/collections/transxchange) XML format. Data can be converted to [GTFS](https://en.wikipedia.org/wiki/General_Transit_Feed_Specification) with various tools, including [TransXChange2GTFS](https://github.com/danbillingsley/TransXChange2GTFS).
 
 
 ### Maritime
