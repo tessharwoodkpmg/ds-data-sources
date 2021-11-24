@@ -83,6 +83,8 @@ This is intended to be open source! Feel free to [contribute to it](https://akra
 
 ### Bus
 
+* [Bus Open Data Service] (https://data.bus-data.dft.gov.uk/) Datasets in XML standards for England's bus timetables, live location, and fares. As well as cross boarder services with Scotland & Wales. Timetables are provided in TransXChange 2.4 PTI 1.1A (https://pti.org.uk/system/files/files/TransXChange_UK_PTI_Profile_v1.1.A.pdf) or GTFS. Live locations are provided in SIRI-VM 2.0 (https://www.gov.uk/government/publications/technical-guidance-publishing-location-data-using-the-bus-open-data-service-siri-vm) or GTFS-RT; no historical data locations data is provided. Fares are provided in UK NeTEX (http://netex.uk/netex/schema.htm). Expected future features (delivery dates not yet available) - Punctuality data and Disruptions (Siri-SX & GTFS).
+
 * [Traveline National Dataset (TNDS)](https://www.travelinedata.org.uk/traveline-open-data/traveline-national-dataset/) Public transport timetables for bus, light rail, tram and ferry services in Great Britain. Data is provided in [TransXChange](https://www.gov.uk/government/collections/transxchange) XML format. Data can be converted to [GTFS](https://en.wikipedia.org/wiki/General_Transit_Feed_Specification) with various tools, including [TransXChange2GTFS](https://github.com/danbillingsley/TransXChange2GTFS).
 
 
